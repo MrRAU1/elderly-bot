@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elderly Robot Assistant</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        .lang-btn { font-size: 20px; margin: 10px; padding: 12px; cursor: pointer; }
+        #status { font-size: 24px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h1>Elderly Companion Robot</h1>
+
+<button class="lang-btn" onclick="setLanguage('english')">English</button>
+<button class="lang-btn" onclick="setLanguage('mandarin')">中文</button>
+<button class="lang-btn" onclick="setLanguage('malay')">Malay</button>
+<button class="lang-btn" onclick="setLanguage('hindi')">हिंदी</button>
+
+<p id="status">Not listening</p>
+<p id="result"></p>
+
+<script src="/static/main.js"></script>
+
+</body>
+</html>
